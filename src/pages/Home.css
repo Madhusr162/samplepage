@@ -1,0 +1,173 @@
+.home {
+    background-color: rgb(23, 29, 29);
+}
+
+.news-row {
+    margin-left: 100px;
+}
+
+.cardimage {
+    height: 30vh;
+}
+
+.cardImg {
+    height: 17vh;
+    width: 200px
+}
+
+.card {
+    border: none;
+}
+
+.card-body-text {
+    background-color: rgb(34, 40, 40);
+    color: #c4bfbf;
+    text-align: left;
+    height: 17vh;
+}
+
+.card-body-guide-text {
+
+    background-color: rgb(23, 29, 29);
+    color: #c4bfbf;
+    text-align: left;
+    height: 17vh;
+
+}
+
+.big {
+    height: 56vh;
+}
+
+.quick-links {
+    color: #c4bfbf;
+    text-align: left;
+    margin-left: 110px;
+}
+
+.dark {
+    width: 230px;
+    height: 10vh;
+}
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 960px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.label-radio {
+    color: #c4bfbf;
+}
+
+.box input[type="radio"] {
+    margin-right: 5px;
+    /* Adjust the margin between radio input and text */
+    width: 30px;
+    height: 20px;
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(0, 177, 236)0%, rgb(103, 252, 247)100%);
+}
+
+.excellent {
+    width: 70%;
+    animation: excellent 3s;
+}
+
+.good {
+    width: 50%;
+    animation: good 3s;
+}
+
+.fair {
+    width: 40%;
+    animation: fair 3s;
+}
+
+.bad {
+    width: 20%;
+    animation: bad 3s;
+}
+
+.bar {
+    background-color: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.box:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.comments{
+    color: #c4bfbf;
+    text-align: left;
+    margin-left: 110px; 
+}
+.textarea{
+    background-color: rgb(23, 29, 29);
+    height: 80px;
+    width: 400px;
+    border-radius: 10px;
+}
+.comments{
+    background-color: rgb(23, 29, 29);
+}
+.btn-comments{
+    background-color: rgb(23, 29, 29);
+    text-decoration: underline;
+    border: none;
+}
+.btn-cmnt{
+    border-radius: 10px;
+}
+@keyframes excellent {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 70%
+    }
+}
+
+@keyframes good {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 60%
+    }
+}
+
+@keyframes fair {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 40%
+    }
+}
+
+@keyframes bad {
+    0% {
+        width: 0%
+    }
+
+    100% {
+        width: 20%
+    }
+}

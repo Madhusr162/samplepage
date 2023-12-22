@@ -1,0 +1,28 @@
+.sidebar {
+    width: 20%; 
+    background-color: rgb(23, 29, 29);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    height: 100vh;
+    
+}
+
+.userlist {
+    color: white;
+    margin-left: 20px;
+}
+
+.bullet-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bullet-list li::before {
+    content: '\2022'; /* Unicode character for bullet (•) */
+    color: green; /* Set the bullet color to green */
+    display: inline-block;
+    width: 0.75em; /* Adjust the width of the bullet space */
+    font-weight: bold; /* Make the bullet dot thicker */
+  font-size: 1.75em;
+  }

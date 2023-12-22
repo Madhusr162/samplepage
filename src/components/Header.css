@@ -1,0 +1,105 @@
+.logo-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(34, 40, 40);
+    padding: 10px;
+}
+
+.container-dropdown {
+    background-color: rgb(34, 40, 40);
+}
+
+.nav-tabs {
+    margin-left: 100px;
+}
+
+.img-fluid {
+    margin-left: 100px;
+}
+
+.search {
+    margin-top: 5px;
+    margin-left: 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    caret-color: grey;
+    color: grey;
+    background-color: rgb(34, 40, 40);
+    width: 300px;
+    height: 40px;
+}
+
+.search-icon {
+    margin-left: 570px;
+    position: absolute;
+}
+
+.btn .icon {
+    margin-left: -8px;
+    margin-top: 6px !important;
+}
+
+.discord {
+    border-radius: 50%;
+    background-color: rgb(94, 94, 234);
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.discord:hover {
+    background-color: rgb(94, 94, 234);
+}
+
+.login-link {
+    color: white;
+    margin-left: 10px;
+}
+
+.iconNbutton {
+    margin-left: 550px;
+}
+
+/* Custom styles for the dropdown */
+.container-dropdown .nav-item.dropdown {
+    position: relative;
+}
+
+.container-dropdown .nav-item.dropdown>a::after {
+    content: none;
+    /* Remove the default caret */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.container-dropdown .dropdown-menu {
+    background-color: rgb(84, 93, 112);
+    /* Change background color */
+    color: #c4bfbf;
+    /* Change font color */
+    text-decoration: none;
+}
+
+/* Custom styles for the dropdown */
+.container-dropdown .nav-item.dropdown {
+    position: relative;
+}
+
+.container-dropdown .nav-item.dropdown>a::after {
+    content: none;
+    /* Remove the default caret */
+}
+
+.container-dropdown .dropdown-menu a {
+    color: rgb(243, 239, 239);
+    /* Change font color for dropdown items */
+}
+/* Hover effect for dropdown items */
+.container-dropdown .dropdown-menu a:hover {
+    background-color: rgb(84, 93, 112);
+    /* Change background color on hover */
+}

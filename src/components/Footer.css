@@ -1,0 +1,11 @@
+.footer{
+    background-color: rgb(34, 40, 40);
+}
+.footer-logo{
+    width: 300px;
+    margin-left: 5em;
+}
+.diablo-contact, .diablo-links, .diablo-official{
+    color: rgb(186, 182, 182);
+    text-align: left;
+}
